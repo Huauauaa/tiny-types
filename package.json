@@ -1,8 +1,12 @@
 {
-  "name": "tiny-types",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@harvey0379/tiny-types",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "main": "src/index.ts",
+  "files": [
+    "types"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,5 +15,8 @@
   "devDependencies": {
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "vue": "^3.4.27"
   }
 }
