@@ -3,5 +3,5 @@
 ## install
 
 ```bash
-npm i @harvey/tiny-types
+npm i @harvey0379/tiny-types
 ```
